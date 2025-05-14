@@ -315,3 +315,7 @@ $ git push origin master
 >
 > 【删除远程库】如果添加的时候地址写错了，或者就是想删除远程库，可以用【git remote rm  <name>】命令。使用前，建议先用【git remote -v】查看远程库信息
 
+> [!WARNING]
+>
+> 特别要注意的是，【git init】之后是在工作区生成了版本库【.git】，但此修改还没有添加到暂存区，更没有提交到仓库，此时进行【git remote】和【git push】是连接不到远程库的
+
