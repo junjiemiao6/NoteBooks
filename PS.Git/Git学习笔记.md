@@ -318,4 +318,6 @@ $ git push origin master
 > [!WARNING]
 >
 > 特别要注意的是，【git init】之后是在工作区生成了版本库【.git】，但此修改还没有添加到暂存区，更没有提交到仓库，此时进行【git remote】和【git push】是连接不到远程库的
+>
+> <u>之后每次要往【云端仓库】提交内容时都要重复【git init + git add + git commit + 修改 + git add + git commit + git push】</u>
 
